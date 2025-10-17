@@ -1,0 +1,101 @@
+# -------------------------
+# Data (never commit PHI/raw data)
+# -------------------------
+data/**
+!data/**/.gitkeep
+outputs/**
+logs/**
+tmp/**
+
+# REDCap/credentials/secrets
+*.env
+.env
+*.env.*
+*.secrets*
+secrets.*
+*_token.*
+token*
+*token.json
+*.key
+*.pem
+*.p12
+*.sqlite
+*.db
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+.venv/
+venv/
+pip-wheel-metadata/
+
+# -------------------------
+# R
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+renv/library*/
+renv/staging/
+packrat/
+
+# -------------------------
+# Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# IDE/Editors
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# OS
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# LaTeX/Quarto builds
+# -------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+_cache/
+.quarto/
+
+# -------------------------
+# Archives/temporary
+# -------------------------
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.bak
+*.tmp
+*.swp
+~$*
+
+# -------------------------
+# Project-specific
+# -------------------------
+redcap/exports/**
+!redcap/**/.gitkeep
