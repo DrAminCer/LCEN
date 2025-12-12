@@ -1,0 +1,17 @@
+# Requerimientos principales
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.7
+scikit-learn>=1.3
+scipy>=1.10
+
+# Jupyter Notebook
+jupyter>=1.0
+ipykernel>=6.0
+
+# Opcionales para EDA automatizado (el cuaderno ya incluye estas celdas)
+sweetviz>=2.1
+ydata-profiling>=4.6
+
+# Opcional pero recomendado para manejo de rutas moderno
+python-dotenv>=1.0
