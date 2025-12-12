@@ -4,13 +4,6 @@
 ### Repositorio unificado de cuadernos, scripts y plantillas analíticas
 
 
-
-
-
-
-
-
-
 Este repositorio concentra los **cuadernos, scripts, plantillas y herramientas de análisis** desarrollados en el **Laboratorio Clínico de Enfermedades Neurodegenerativas (LCEN)**. Su propósito es mantener una estructura organizada, reproducible y en constante crecimiento para apoyar los proyectos de investigación clínica, genética, epidemiológica y computacional del laboratorio.
 
 El repositorio se actualizará de forma continua conforme se incorporen nuevos materiales.
@@ -51,6 +44,23 @@ Flujo integral que incluye:
 
 Este archivo funge como **plantilla base** para cualquier proyecto nuevo.
 
+---
+### 2. Template LCEN · Parkinson (Análisis Clínico)
+
+`notebooks/templates/Template_LCEN_PD.ipynb`
+
+Cuaderno base diseñado para análisis clínicos y de investigación en enfermedad de Parkinson dentro del LCEN.
+Incluye:
+- Configuración estandarizada del entorno de trabajo.
+- Verificación de librerías y control de reproducibilidad.
+- Análisis exploratorio de datos (EDA) orientado a variables clínicas.
+- Preprocesamiento estructurado mediante ColumnTransformer.
+- Selección automática del enfoque analítico (clasificación o regresión) según la variable dependiente.
+- Entrenamiento y evaluación del modelo.
+- Validación cruzada opcional.
+- Salidas interpretables y listas para reporte científico. 
+- Este cuaderno funciona como **plantilla oficial del LCEN para el desarrollo de análisis clínicos en Parkinson** y proyectos relacionados.
+  
 ---
 
 ## Lineamientos para nuevos cuadernos
@@ -98,7 +108,29 @@ El repositorio está diseñado para crecer. Se consideran futuras secciones como
 - **Scripts para integración de datos multifuente.**  
 - **Plantillas para documentación institucional, SOPs y reportes estadísticos.**
 
+Reproducibilidad y buenas prácticas:
+
+- Control de versiones con Git
+- Separación clara entre datos crudos y procesados
+- Código comentado y estructurado
+- Figuras y tablas generadas directamente desde el análisis
+- Cumplimiento de principios FAIR cuando es aplicable
+
+  
 ---
+
+
+## Uso, ética y regulación
+
+Este repositorio es para uso académico y de investigación.
+El manejo de datos cumple con:
+Principios de la Declaración de Helsinki
+ICH-GCP
+Normatividad institucional y nacional aplicable
+El uso de datos está sujeto a aprobación ética correspondiente.
+
+---
+
 
 ## Contribuciones
 
@@ -113,6 +145,16 @@ Si formas parte del LCEN y deseas contribuir:
 Si necesitas una **guía de estilo**, un **CONTRIBUTING.md** o plantillas adicionales, se pueden generar a solicitud.
 
 ---
+
+## Autoría y afiliación
+
+Laboratorio Clínico de Enfermedades Neurodegenerativas (LCEN)
+Instituto Nacional de Neurología y Neurocirugía
+Manuel Velasco Suárez
+Ciudad de México, México
+
+---
+
 
 ## Contacto
 
