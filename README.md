@@ -1,5 +1,15 @@
+<img src="Copia%20de%20Logo%20PNG.png" alt="LCEN Logo" width="180" align="left">
+
 # LCEN — Laboratorio Clínico de Enfermedades Neurodegenerativas  
 ### Repositorio unificado de cuadernos, scripts y plantillas analíticas
+
+
+
+
+
+
+
+
 
 Este repositorio concentra los **cuadernos, scripts, plantillas y herramientas de análisis** desarrollados en el **Laboratorio Clínico de Enfermedades Neurodegenerativas (LCEN)**. Su propósito es mantener una estructura organizada, reproducible y en constante crecimiento para apoyar los proyectos de investigación clínica, genética, epidemiológica y computacional del laboratorio.
 
