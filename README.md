@@ -1,26 +1,23 @@
-# LCEN — Clinical Laboratory of Neurodegenerative Diseases (INNN)
+# LCEN — Laboratorio Clínico de Enfermedades Neurodegenerativas  
+### Repositorio unificado de cuadernos, scripts y plantillas analíticas
 
-LCEN repository (INNN, Mexico). SOPs, REDCap instruments, QC pipelines, and analysis scripts (Python/R) for clinical research in Parkinson’s disease and related disorders. **No PHI; raw data not public.**
+Este repositorio concentra los **cuadernos, scripts, plantillas y herramientas de análisis** desarrollados en el **Laboratorio Clínico de Enfermedades Neurodegenerativas (LCEN)**. Su propósito es mantener una estructura organizada, reproducible y en constante crecimiento para apoyar los proyectos de investigación clínica, genética, epidemiológica y computacional del laboratorio.
+
+El repositorio se actualizará de forma continua conforme se incorporen nuevos materiales.
 
 ---
 
-## Goals
-- Standardize procedures (SOPs) and forms.
-- Centralize QC tools and reproducible analyses.
-- Share teaching and training materials.
+## Objetivos generales del repositorio
 
-## Scope (what’s here)
-- **/sops/**: Standard Operating Procedures (PDF and editable sources).
-- **/redcap/**: Instruments, data dictionaries, import guides.
-- **/scripts/**: Python and R code for cleaning, QC, and analysis.
-- **/notebooks/**: Jupyter/RMarkdown with worked examples.
-- **/qc/**: Automated checks (consistency, ranges, duplicates).
-- **/docs/**: Manuals, guidelines, and coursework.
+- Servir como **biblioteca centralizada** de cuadernos Jupyter (`.ipynb`), scripts Python (`.py`) y documentos auxiliares.  
+- Mantener un **estándar uniforme de análisis**, incluyendo instalación, EDA, preprocesamiento, modelado y documentación.  
+- Facilitar la **reproducibilidad**, tanto en proyectos internos como en colaboraciones nacionales e internacionales.  
+- Proveer plantillas reutilizables que permitan acelerar el desarrollo de nuevos análisis y flujos de trabajo en el laboratorio.  
+- Documentar progresivamente las mejores prácticas del LCEN en ciencia de datos, buenas prácticas clínicas y análisis estadísticos.
 
-## Data policy
-- Do not upload **PHI** or identifiable data.
-- Do not upload raw patient-level data to this repo.
-- Anonymize and aggregate before sharing results.
-- Clean hidden metadata from PDFs/docs before upload.
+---
 
-### Recommended `.gitignore`
+## Estructura general propuesta del repositorio
+
+La estructura podrá ampliarse conforme crezcan los proyectos. Actualmente se sugiere la siguiente organización:
+
